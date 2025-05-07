@@ -1,4 +1,4 @@
-import { GadgetStatus } from "../generated/prisma";
+import { GadgetStatus } from "@prisma/client";
 
 export interface updateGadgetDto {
   name: string;

@@ -1,4 +1,4 @@
-import { PrismaClient } from "../generated/prisma/client";
+import { PrismaClient } from "@prisma/client";
 import { jwtPayload } from "../types/authTypes";
 import { gadgetStatusList, updateGadgetDto } from "../types/gadgetTypes";
 
